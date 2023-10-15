@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="desription" content="Healthy Outside Start From Inside">
+  <meta name="keywords" content="web design,affordable web design,professional web design">
+  <meta name="author" content="hkkp">
+  <title>RANGO| WELCOME</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link rel="stylesheet" href="{% static 'images' %}">
+  </head>
+    <body>
+      <header>
+        <div class="container">
+          <div id="branding">
+            <h1><span class="highlight"> R</span> ANGO </h1>
+            </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+             <li><a href="restaurant.html">Restaurant</a></li>
+            <li><a href="ngo.html">NGO</a></li>
+            <li><a href="donate.html">Donate</a></li>
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+  <section id="showcase">
+    <div class="container">
+      <h1> Healthy Outside Start From Inside </h1>
+      <p>We ca be leaders in our own communities by collecting unspoiled,healthy food and donating it to our neighbours in need.By donating food,we're feeding people,not landfills,supporting local communities,and saving all the resources that went into producing that food from going to waste. </p>
+    </div>
+      </section>
+<section id="newsletter">
+  <div class="container">
+    <h1>Subscribe To Our Newsletter</h1>
+    <form>
+      <input type="email" placeholder="Enter Email....">
+      <button type="submit" class="button_1">Subscribe</button>
+    </form>
+  </div>
+</section>
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <img src="{% static "images/donor.png" %}">
+      <h3>Donors</h3>
+      <p>Conducting local food donation drives with the help of crowdsourced food, planning, monitoring and distribution</p>
+    </div>
+    <div class="box">
+      <img src="{% static "images/volunteer.jpg" %}">
+      <h3>Volunteers</h3>
+      <p>All our initiatives are designed to provide essential food support to underserved communities in the form of raw grains, freshly cooked food or packaged food products depending on the need. Our aim is to ensure, hunger never comes in the way of a brighter future.</p>
+    </div>
+    <div class="box">
+      <img src="{% static "images/organisation.png" %}">
+      <h3>Organisation</h3>
+      <p>Our vision is a world where every one can access to good nutrition. By brokering collaborative partnerships with the private and public sector we are able to unlock vital funding that will transform everyone's futures on a scale that few can achieve alone.</p>
+    </div>
+  </div>
+  </section>
+  <footer>
+    <p> Food Tech , Copyright & Copy;2021</p>
+  </footer>
+  </body>
+    </html>
+

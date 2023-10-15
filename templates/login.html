@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="desription" content="Healthy Outside Start From Inside">
+  <meta name="keywords" content="web design,affordable web design,professional web design">
+  <meta name="author" content="hkkp">
+  <title>RANGO | LOGIN</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+    <body>
+      <header>
+        <div class="container">
+          <div id="branding">
+            <h1><span class="highlight"> R</span> ANGO </h1>
+            </div>
+          <nav>
+            <ul>
+              <li ><a href="index.html">Home</a></li>
+              <li class="current"><a href="restaurant .html">Restaurants</a></li>
+            <li ><a href="ngo.html">NGO</a></li>
+              <li ><a href="donate.html">Donate</a></li>
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+  <section id="dotsl">
+    <div class="container">
+    <article id="main-col">
+   <h2 class="page-title">ENTER RESTAURANT DETAILS:</h2>
+<body>
+  <form method="post" action="/login.html">
+    {% csrf_token %}
+  <h3>Restaurant Name:<input type="text" name="Rname" placeholder="Enter Restaurantname..."><br></h3>
+ <h3>Username:<input type="text" name="Uname" placeholder="Enter Username..."><br></h3>
+  <h3>Password:<input type="password" name="Passw" placeholder="Enter Password..."> </h3>
+
+<button style="background-color:Brown;color:white;width:150px;height:40px;" type="submit">SUBMIT</button>
+</div>
+</div>
+</select>
+</form>
+
+
+</body>
+</html>
